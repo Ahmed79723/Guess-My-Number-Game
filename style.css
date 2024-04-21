@@ -1,0 +1,98 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: rgb(35, 35, 35);
+  overflow: hidden;
+}
+.text-white {
+  color: white;
+}
+/*  <uniquifier>: Use a unique and descriptive class name */
+/*  <weight>: Use a value from 400 to 700 */
+
+.pixelify-sans {
+  font-family: "Pixelify Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 500;
+  font-style: normal;
+}
+button {
+  padding: 1% 3%;
+  font-size: 35px;
+  cursor: pointer;
+  /* margin: 2% 1%; */
+}
+/* ==============================================|First Section|=============================================== */
+#Title p {
+  display: inline;
+  font-size: 20px;
+}
+#Title div {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 1%;
+}
+h1 {
+  font-size: 65px;
+  text-align: center;
+  margin-top: 1%;
+  text-wrap: nowrap;
+}
+/* ==============================================|Num Section|=============================================== */
+#Num {
+  display: flex;
+  justify-content: center;
+  margin-top: 2%;
+}
+.sep {
+  background-color: white;
+  height: 7px;
+  width: 100%;
+  align-self: center;
+}
+.num {
+  padding: 0.5% 2%;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  background-color: white;
+}
+/* ==============================================|Guessing Section|=============================================== */
+#guessing {
+  margin-top: 2%;
+  display: flex;
+}
+form {
+  width: 50%;
+  padding: 2% 3%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+input {
+  display: block;
+  width: 35%;
+  border: 5px solid white;
+  background-color: transparent;
+  font-size: 70px;
+  font-weight: 700;
+  text-align: center;
+  outline: none;
+}
+#Check {
+  margin-top: 3%;
+}
+#guessing div {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  width: 50%;
+  font-size: 30px;
+}
+h3 {
+  margin-bottom: 17%;
+}

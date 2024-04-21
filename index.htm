@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess My Number!</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap" rel="stylesheet">
+</head>
+
+<body class="pixelify-sans">
+    <section id="Title">
+        <div>
+            <button class="pixelify-sans" id="Again">Again!</button>
+            <p class="text-white">
+                < Between 1 and 20>
+            </p>
+        </div>
+        <h1 class="text-white">Guess My Number!</h1>
+    </section>
+    <section id="Num">
+        <div class="sep"></div>
+        <div class="num">?</div>
+        <div class="sep"></div>
+    </section>
+    <section id="guessing">
+        <form>
+            <input type="number" max="20" min="0" class="text-white pixelify-sans" value="">
+            <button class="pixelify-sans" id="Check">Check!</button>
+        </form>
+        <div class="text-white">
+            <span>
+                <h3>Start Guessing...</h3>
+                <h4 id="score">💯 Score: 20</h4>
+                <h4>🏅 High Score: <span id="highVal">0</span></h4>
+            </span>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+
+</html>
